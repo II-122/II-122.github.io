@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Main Page </title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            #txt_welcome {
+                text-align: center; 
+                margin-bottom: 50px;
+            }
+
+            .intro{
+                text-align: center;
+            }
+
+            .card_grid{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .card {
+                text-align: center;
+            }
+
+            .card_title {
+                font-size: 20px;
+            }
+
+            .card_button {
+                font-size: 25px;
+                width: 150px;
+                height: 30px;
+            }
+
+            .card_img {
+                width: 300px;
+                height: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SYJ 's 페이지</h1>
+        <div class="intro">
+            Welcom to SYJ's web page.
+            <br>
+            SYJ의 개발자 프로젝트 소개 페이지 입니다.
+            <br>
+            <br>
+        </div>
+        <div class="card_grid">
+            <div class="card">
+                <p class="card_title"> 프로젝트 1 </p>
+                <input class="card_button" type="button" value="자세히" onclick="location.href='./pages/page1.html'">
+            </div>
+            <div class="card">
+                <p class="card_title"> 프로젝트 2 </p>
+                <input class="card_button" type="button" value="자세히" onclick="location.href='./pages/page2.html'">
+            </div>
+            <div class="card">
+                <p class="card_title"> 프로젝트 3 </p>
+                <input class="card_button" type="button" value="자세히" onclick="location.href='./pages/page3.html'">
+            </div>
+    </div>
+    </body>
+</html>
